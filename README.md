@@ -1,12 +1,15 @@
 # Credit_Risk_Analysis
 
 ## Purpose
+The purpose of this analysis is to create the best model to predict whether a loan is high risk or low risk based on different features associated with the applicant.  Since the dataset is unbalance with far more low risk loan risk we will use several techniques to handle the imbalance.  These techniques included over sampaling, undersampling, combination of oversampaling and undersampaling and then ensemble models to remove bias.
+
+The performance of each model will be evaluated using the balanced accuracy score and the imbalanced classification report showing the precision and recall.
 
 ## Results
 
 ### Naive Random Oversampling (RandomOverSampler)
 - Balanced Accuracy Score
-- 
+ 
 ![alt_text](https://raw.githubusercontent.com/bweirich/Credit_Risk_Analysis/main/images/balance_over_sample.PNG)
 - Imbalanced Classification Report
 
